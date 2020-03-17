@@ -1,14 +1,18 @@
 # vuex-prototype
 
 ## 目的
-あれ？Vuexの記法ってどんなだったっけ。って時に確認するように作成しました。  
+あれ？Vuexの記法ってどんなだったっけ。って時に確認する用に作成しました。  
 Vue初学者がコピペして使うのも🙆‍（非推奨）。
 どちらかというと自分のド忘れ用ですがご自由に。  
 actionsやmutationsはもちろんgettersやmodulesについてもフォローしてます。  
-modulesを用いる際のactionsやmutations,gettersへのアクセス（？）記法が少し
-**特徴的なので**まとめてます。  
-また、actionsやmutationsへの第3引数以降の受け渡しについても言及しているので
-Vue初学者は再確認を。
+**modulesを用いる際のactionsやmutations,gettersへのアクセス（？）記法が少し特徴的**なのでまとめてます。  
+また、**actionsやmutationsへの第3引数以降の受け渡し**についても言及しているのでVue初学者は再確認を。
+
+## 主な参照場所
+[src/components/StoreViewer.vue](https://github.com/cSyu2611/vuex-prototype/blob/master/src/components/StoreViewer.vue)
+---コンポーネントからストアにアクセスする際のコード類。  
+[src/store/index.js](https://github.com/cSyu2611/vuex-prototype/blob/master/src/store/index.js)
+---ストア本体のコード類。
 
 ## Project setup
 ```
