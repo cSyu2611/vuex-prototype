@@ -14,6 +14,9 @@ actionsやmutationsはもちろんgettersやmodulesについてもフォロー�
 [src/store/index.js](https://github.com/cSyu2611/vuex-prototype/blob/master/src/store/index.js)
 ---ストア本体のコード類。
 
+## イメージ
+簡易ですが実際に値を変更しながらストアが更新されることを確認できます。
+![イメージ](https://github.com/cSyu2611/vuex-prototype/blob/master/src/assets/ss.png)
 ## Project setup
 ```
 npm install
