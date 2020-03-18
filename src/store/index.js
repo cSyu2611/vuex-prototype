@@ -22,11 +22,11 @@ const numberStore = {
     }
   },
   getters: {
-    getExplanation: state => {
-      return state.explanation
-    },
+    // getExplanation: state => {
+    //   return state.explanation
+    // },
     getSampleNumber: state => {
-      return state.sampleNumber
+      return state.sampleNumber * 5
     }
   },
   namespaced: true
@@ -49,11 +49,11 @@ const stringStore = {
     }
   },
   getters: {
-    getExplanation: state => {
-      return state.explanation
-    },
+    // getExplanation: state => {
+    //   return state.explanation
+    // },
     getSampleString: state => {
-      return state.sampleString
+      return state.sampleString.split("").reverse().join("")
     }
   },
   namespaced: true
@@ -76,11 +76,16 @@ const arrayStore = {
     }
   },
   getters: {
-    getExplanation: state => {
-      return state.explanation
-    },
+    // getExplanation: state => {
+    //   return state.explanation
+    // },
     getSampleArray: state => {
-      return state.sampleArray
+      var array=[]
+      for(var i=0; i<state.sampleArray.length;i++){
+        array.push(state.sampleArray[i])
+        array.push("区切り文字")
+      }
+      return array
     }
   },
   namespaced: true
@@ -103,11 +108,11 @@ export default new Vuex.Store({
     }
   },
   getters: {
-    getExplanation: state => {
-      return state.explanation
-    },
+    // getExplanation: state => {
+    //   return state.explanation
+    // },
     getSampleMain: state => {
-      return state.sampleMain
+      return state.sampleMain.split("").reverse().join("")
     }
   },
   //分割したストアをまとめてここに書く
