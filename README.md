@@ -7,6 +7,7 @@
 actionsやmutationsはもちろんgettersやmodulesについてもフォローしてます。  
 **modulesを用いる際のactionsやmutations,gettersへのアクセス（？）記法が少し特徴的**なのでまとめてます。  
 また、**actionsやmutationsへの第3引数以降の受け渡し**についても言及しているのでVue初学者は再確認を。
+新アルバイト用
 
 ## 主な参照場所
 [src/components/StoreViewer.vue](https://github.com/cSyu2611/vuex-prototype/blob/master/src/components/StoreViewer.vue)
